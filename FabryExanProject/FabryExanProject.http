@@ -1,0 +1,6 @@
+@FabryExanProject_HostAddress = http://localhost:5054
+
+GET {{FabryExanProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
