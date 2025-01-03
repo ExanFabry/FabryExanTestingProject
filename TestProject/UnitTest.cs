@@ -1,3 +1,7 @@
+using FabryExanProject.Models;
+using FabryExanProject.Services;
+using Moq;
+
 namespace TestProject
 {
     public class Tests
@@ -28,6 +32,34 @@ namespace TestProject
             );
 
             StringAssert.Contains($"Ongeldige optie meegegeven", ex.Message);
+        }
+
+        //Integratietesten
+        [Test]
+        public void GetFilmWithSpecificGenre()
+        {
+            var filmApi = new Mock<IHandelingen>();
+            filmApi.Setup(x => x.ReturnFilmWithGenre("action")).Returns(Task.FromResult(new Films(3, "John Wick", Genre.Action)));
+            var filmService = filmApi.Object;
+            var result = filmService.ReturnFilmWithGenre("action").Result;
+            Assert.IsNotNull(result);
+            Assert.AreEqual(3, result.Id);
+            Assert.AreEqual("John Wick", result.Title);
+            Assert.AreEqual(Genre.Action, result.Genre);
+        }
+        [Test]
+        public void ValidateGenreWithValidGenreReturnsTrue()
+        {
+            string validGenre = "Action";
+            bool result = FabryExanProject.Services.BeslissingModule.ChooseGenre(validGenre);
+            Assert.True(result);
+        }
+        [Test]
+        public void ValidateGenreWithWrongGenreReturnsFalse()
+        {
+            string invalidGenre = "Fout genre";
+            var exception = Assert.Throws<ArgumentException>(() => FabryExanProject.Services.BeslissingModule.ChooseGenre(invalidGenre));
+            Assert.False(exception.Message.Contains($"Genre '{invalidGenre}' bestaat niet in de beschikbare genres."));
         }
     }
 }

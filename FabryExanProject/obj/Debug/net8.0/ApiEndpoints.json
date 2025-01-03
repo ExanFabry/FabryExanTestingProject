@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "FabryExanProject.Controllers.FilmController",
+    "Method": "RandomMovieGenerator",
+    "RelativePath": "api/Film/choosegenre/{genre}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "genre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FabryExanProject.Models.Films",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

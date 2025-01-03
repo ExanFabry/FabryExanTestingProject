@@ -110,3 +110,11 @@ C:\Users\exanf\OneDrive\Bureaublad\Informatica\ap_hogeschool\2024-2025\Semester 
 C:\Users\exanf\OneDrive\Bureaublad\Informatica\ap_hogeschool\2024-2025\Semester 1\Testing and security\Project\FabryExanProject\TestProject\obj\Debug\net8.0\TestProject.pdb
 C:\Users\exanf\OneDrive\Bureaublad\Informatica\ap_hogeschool\2024-2025\Semester 1\Testing and security\Project\FabryExanProject\TestProject\obj\Debug\net8.0\TestProject.genruntimeconfig.cache
 C:\Users\exanf\OneDrive\Bureaublad\Informatica\ap_hogeschool\2024-2025\Semester 1\Testing and security\Project\FabryExanProject\TestProject\obj\Debug\net8.0\ref\TestProject.dll
+C:\Users\exanf\OneDrive\Bureaublad\Informatica\ap_hogeschool\2024-2025\Semester 1\Testing and security\Project\FabryExanProject\TestProject\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\exanf\OneDrive\Bureaublad\Informatica\ap_hogeschool\2024-2025\Semester 1\Testing and security\Project\FabryExanProject\TestProject\bin\Debug\net8.0\Moq.dll
+C:\Users\exanf\OneDrive\Bureaublad\Informatica\ap_hogeschool\2024-2025\Semester 1\Testing and security\Project\FabryExanProject\TestProject\bin\Debug\net8.0\Gherkin.dll
+C:\Users\exanf\OneDrive\Bureaublad\Informatica\ap_hogeschool\2024-2025\Semester 1\Testing and security\Project\FabryExanProject\TestProject\bin\Debug\net8.0\xunit.abstractions.dll
+C:\Users\exanf\OneDrive\Bureaublad\Informatica\ap_hogeschool\2024-2025\Semester 1\Testing and security\Project\FabryExanProject\TestProject\bin\Debug\net8.0\xunit.assert.dll
+C:\Users\exanf\OneDrive\Bureaublad\Informatica\ap_hogeschool\2024-2025\Semester 1\Testing and security\Project\FabryExanProject\TestProject\bin\Debug\net8.0\xunit.core.dll
+C:\Users\exanf\OneDrive\Bureaublad\Informatica\ap_hogeschool\2024-2025\Semester 1\Testing and security\Project\FabryExanProject\TestProject\bin\Debug\net8.0\xunit.execution.dotnet.dll
+C:\Users\exanf\OneDrive\Bureaublad\Informatica\ap_hogeschool\2024-2025\Semester 1\Testing and security\Project\FabryExanProject\TestProject\bin\Debug\net8.0\Xunit.Gherkin.Quick.dll

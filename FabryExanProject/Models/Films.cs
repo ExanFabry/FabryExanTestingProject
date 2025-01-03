@@ -2,9 +2,19 @@
 {
     public class Films
     {
-        public int id { get; set; }
-        public string title { get; set; } = string.Empty;
-        public Genre genre { get; set; }
+        public Films()
+        {
+
+        }
+        public Films(int id, string title, Genre genre)
+        {
+            Id = id;
+            Title = title;
+            Genre = genre;
+        }
+        public int Id { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public Genre Genre { get; set; }
     }
     public enum Genre
     {
