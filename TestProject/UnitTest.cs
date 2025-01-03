@@ -48,6 +48,15 @@ namespace TestProject
             Assert.AreEqual(Genre.Action, result.Genre);
         }
         [Test]
+        public void AllFilmsShouldReturnListOfFilms()
+        {
+            var handelingen = new Handelingen();
+            List<Films> result = handelingen.AllFilms();
+            Assert.NotNull(result);
+            Assert.True(result is List<Films>);
+            Assert.True(result.Count > 0);
+        }
+        [Test]
         public void ValidateGenreWithValidGenreReturnsTrue()
         {
             string validGenre = "Action";

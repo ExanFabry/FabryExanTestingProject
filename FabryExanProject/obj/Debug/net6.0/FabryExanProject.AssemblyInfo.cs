@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FabryExanProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7076efa115fca607b93e86a043602c0ec01febc0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51539916c8314b743f9a5336a56f16d4b9309466")]
 [assembly: System.Reflection.AssemblyProductAttribute("FabryExanProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FabryExanProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
